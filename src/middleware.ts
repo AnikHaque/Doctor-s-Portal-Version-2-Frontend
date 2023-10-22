@@ -22,7 +22,6 @@ export async function middleware(request: NextRequest) {
     }
 
     const role = token?.role as string;
-    // console.log(role, "role middleware")
     if (
         (role === "admin" && pathname.startsWith("/admins")) ||
         (role === "doctor" && pathname.startsWith("/doctor")) ||
