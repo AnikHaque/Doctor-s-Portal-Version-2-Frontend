@@ -21,7 +21,6 @@ export const sidebarSlice = createSlice({
     },
 })
 
-// Action creators are generated for each case reducer function
 export const {
     showSidebarDrawer,
     onSidebarClose
