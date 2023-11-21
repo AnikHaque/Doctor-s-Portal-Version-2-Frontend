@@ -16,7 +16,7 @@
     "antd": "^5.9.4",
     "jsonwebtoken": "^9.0.2",
     "next": "latest",
-    "next-auth": "^4.23.2",
+    "next-auth": "^4.24.5",
     "react": "latest",
     "react-dom": "latest",
     "react-redux": "^8.1.2"
